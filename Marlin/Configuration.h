@@ -458,7 +458,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = false; // set to true to invert the logic o
 #define HOMING_FEEDRATE				{100*60, 100*60, 2*60, 0}  // set the homing speeds (mm/min)
 
 // default settings
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {100, 100,400,103} 	// default steps per unit for M&M V10
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {80.8,80.8,400,103} 	// default steps per unit for M&M V10
 #define DEFAULT_MAX_FEEDRATE          {400, 400, 4, 100}    			// (mm/sec)
 #define DEFAULT_MAX_ACCELERATION      {1000,1000,60,5000}    			// X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
 #define DEFAULT_ACCELERATION          400    							// X, Y, Z and E max acceleration in mm/s^2 for printing moves
